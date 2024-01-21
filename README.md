@@ -1,5 +1,5 @@
 # Annotationeer
-Annotationeer runs on top of the PDF.JS Viewer and enables users to create annotations, bookmarks and formfields. The codebase is plain Javascript and the right sidebar list linking the annotations in the canvas using Angular JS.
+Annotationeer runs on top of the PDF.JS Viewer and enables users to create annotations, bookmarks and formfields. The codebase is plain Javascript and a little mix of JQuery while the right sidebar list linking the annotations in the canvas uses Angular JS.
 
 https://annotationeer.netlify.com
 

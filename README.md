@@ -1,7 +1,7 @@
 # Annotationeer
-Annotationeer runs on top of the PDF.JS Viewer and enables users to create annotations, bookmarks and formfields. The codebase is plain Javascript and a little mix of JQuery while the right sidebar list linking the annotations in the canvas uses Angular JS.
+Annotationeer runs on top of the PDF.JS Viewer and enables users to create and add annotations, bookmarks and form fields. The codebase is plain Javascript and a little mix of JQuery while the right sidebar list linking the annotations in the canvas uses Angular JS.
 
-https://annotationeer.netlify.app
+https://annotationeer.netlify.app: [https://annotationeer.netlify.app]
 
 YouTube: [Create annotations in PDF.JS](https://www.youtube.com/watch?v=g2YAn-Yvlss)
 
@@ -43,4 +43,6 @@ Some nifty features that can be configured based on the user's preference:
 
 These annotations are saved and retrieved through RESTful URLs that I created using Silex PHP Framework and using MySQL as database or Couchbase's NoSQL while producing outputs in JSON format.
 
-The web application can run in IE and Webkit based browsers like Chrome, Firefox and Safari. And, while I do not have any physical tablets or smartphone with a good amount of RAM, this has been tested in an Android emulator.
+Annotationeer Exporter is a support solution that uses annotation data in JSON format and exports them to PDF with annotations.
+
+The web application can run in IE and Webkit based browsers like Chrome, Firefox and Safari. This has been tested in browsers running Android, iOS and Mac OSX.
